@@ -22,7 +22,7 @@ function randomColor() {
 }
 
 function changeBg() {
-    body.style.backgroundColor = `rgb(${randomColor()},${randomColor()},${randomColor()})`;
+    body.style.backgroundColor = `rgba(${randomColor()},${randomColor()},${randomColor()}, 0.5)`;
 }
 
 setInterval(changeBg, 1000);
