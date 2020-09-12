@@ -1,0 +1,10 @@
+body > div > div {
+    transform: translateY(-5vh);
+    animation: example 2s linear;
+}
+
+@keyframes example {
+    to {
+        transform: translateY(96vh);
+    }
+  }
